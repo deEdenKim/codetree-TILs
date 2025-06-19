@@ -1,3 +1,4 @@
 a = input()
 
-print({a}+2)
+a = int(a)
+print(a + 2)
