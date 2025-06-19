@@ -4,4 +4,5 @@ temp =b
 b =a
 a=temp
 
-print(a,b)
+print(a)
+print(b)
