@@ -1,3 +1,5 @@
 n = float(input())
 
-print(n)
+print("{:.2f}".format(n))
+
+
