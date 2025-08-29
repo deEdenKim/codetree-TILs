@@ -26,7 +26,7 @@ int main() {
             v.push_back(num[i]);
         }
         else if(command[i] == "get"){
-            cout<<v.at(num[i])<<"\n";
+            cout<<v[num[i]-1]<<"\n";
         }
         else if(command[i] == "pop_back"){
             v.pop_back();
